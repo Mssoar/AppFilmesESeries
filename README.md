@@ -8,14 +8,14 @@
 
 Marciel dos Santo soares
 
-Linkedin:  [br.linkedin.com/in/eliezerzarpelao](http://br.linkedin.com/in/eliezerzarpelao)
+Linkedin:  
 
-WebSite:  [eliezerzarpelao.eti.br](https://eliezerzarpelao.eti.br)
+WebSite:  
 
-Instagram:  [instagram.com/eliezerzarpelao](https://instagram.com/eliezerzarpelao)
+Instagram:  
 
-YouTube:  [youtube.com/channel/UC47RD-s-U6fpKTY0soIUn6g](https://www.youtube.com/channel/UC47RD-s-U6fpKTY0soIUn6g/featured?view_as=subscriber)
+YouTube:  
 
-Twitter:  [@eliezerzarpelao](https://twitter.com/eliezerzarpelao)
+Twitter:  
 
 Github:  [github.com/mssoar](https://github.com/Mssoar)
