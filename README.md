@@ -8,14 +8,5 @@
 
 Marciel dos Santo soares
 
-Linkedin:  
-
-WebSite:  
-
-Instagram:  
-
-YouTube:  
-
-Twitter:  
 
 Github:  [github.com/mssoar](https://github.com/Mssoar)
