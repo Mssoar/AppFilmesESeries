@@ -4,7 +4,7 @@ using System;
 
 
 namespace DIO.FilmesESeries.Classes {
-    public class Filmes : EntidadeBase {
+    public class Filme : EntidadeBase {
         // Atributos
         private Genero Genero { get; set; }
         private string Titulo { get; set; }
@@ -13,7 +13,7 @@ namespace DIO.FilmesESeries.Classes {
         private bool Excluido { get; set; }
 
         // Métodos
-        public Filmes(int id, Genero genero, string titulo, string descricao, int ano) {
+        public Filme(int id, Genero genero, string titulo, string descricao, int ano) {
             Id = id;
             Genero = genero;
             Titulo = titulo;
@@ -48,4 +48,4 @@ namespace DIO.FilmesESeries.Classes {
         }
     }
 }
-}
+

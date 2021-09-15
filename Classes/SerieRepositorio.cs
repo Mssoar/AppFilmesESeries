@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using DIO.FilmesESeries;
+using DIO.FilmesESeries.Classes;
 using DIO.FilmesESeries.Interfaces;
 
 namespace DIO.FilmesESeries {
@@ -36,5 +37,10 @@ namespace DIO.FilmesESeries {
 		{
 			return listaSerie[id];
 		}
-	}
+
+        internal void Atualiza(int indiceFilmes, Filme atualizaFilmes)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }

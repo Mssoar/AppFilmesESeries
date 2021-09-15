@@ -1,4 +1,7 @@
+using System;
 using System.Collections.Generic;
+using DIO.FilmesESeries;
+using DIO.FilmesESeries.Interfaces;
 
 namespace DIO.FilmesESeries.Interfaces
 {
