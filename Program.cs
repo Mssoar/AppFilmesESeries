@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using DIO.FilmesESeries;
-using DIO.FilmesESeries.Classes;
-using DIO.FilmesESeries.Interfaces;
+using FilmesESeries;
+using FilmesESeries.Classes;
+using FilmesESeries.Interfaces;
 
-namespace DIO.FilmesESeries {
+namespace FilmesESeries {
     class Program
     {
         static SerieRepositorio repositorio = new SerieRepositorio();
@@ -74,12 +74,12 @@ namespace DIO.FilmesESeries {
 			repositorio.Exclui(indiceSerie);
 		}
 
-		private static void ExcluirFilmes()
+		private static void ExcluirFilme()
 		{
 			Console.Write("Digite o id do Filme: ");
 			int indiceFilmes = int.Parse(Console.ReadLine());
 
-			repositorio.Exclui(indiceFilmes);
+			repositorio.Exclui(indiceFilme);
 		}
 
 		private static void VisualizarSerie()
@@ -263,7 +263,7 @@ namespace DIO.FilmesESeries {
 										ano: entradaAno,
 										descricao: entradaDescricao);
 
-			repositorio.Insere(novoFilme);
+            repositorio.Insere(novoFilme: novoFilme);
 		}
 
 		private static string ObterOpcaoUsuario()

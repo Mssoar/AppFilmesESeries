@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using DIO.FilmesESeries;
-using DIO.FilmesESeries.Classes;
-using DIO.FilmesESeries.Interfaces;
+using FilmesESeries;
+using FilmesESeries.Classes;
+using FilmesESeries.Interfaces;
 
-namespace DIO.FilmesESeries {
+namespace FilmesESeries {
     public class SerieRepositorio : IRepositorio<Serie>
 	{
         private List<Serie> listaSerie = new List<Serie>();
@@ -39,6 +39,11 @@ namespace DIO.FilmesESeries {
 		}
 
         internal void Atualiza(int indiceFilmes, Filme atualizaFilmes)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void Insere(Filme novoFilme)
         {
             throw new NotImplementedException();
         }

@@ -1,4 +1,4 @@
-namespace DIO.FilmesESeries {
+namespace FilmesESeries {
     public enum Genero
 	{
 		Acao = 1,

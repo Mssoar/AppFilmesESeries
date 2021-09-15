@@ -1,8 +1,8 @@
-using DIO.FilmesESeries.Classes;
-using DIO.FilmesESeries;
+using FilmesESeries.Classes;
+using FilmesESeries;
 using System;
 
-namespace DIO.FilmesESeries {
+namespace FilmesESeries {
     public class Serie : EntidadeBase {
         // Atributos
         private Genero Genero { get; set; }

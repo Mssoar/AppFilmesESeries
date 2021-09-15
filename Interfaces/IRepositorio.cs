@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using DIO.FilmesESeries;
-using DIO.FilmesESeries.Interfaces;
+using FilmesESeries;
+using FilmesESeries.Interfaces;
 
-namespace DIO.FilmesESeries.Interfaces
+namespace FilmesESeries.Interfaces
 {
     public interface IRepositorio<T>
     {
